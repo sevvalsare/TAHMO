@@ -11,7 +11,7 @@ data_comparison.m - this script will take output from Google Earth Engine and Ta
 	callTAHMO.m - this script is called by data_comparison.m for the purposes of converting 5min tahmo data to daily data.
 
 ## Google Earth Engine
-define_chirps_precipitation.js
+define_chirps_precipitation.js 
 define_gsmap_precipitation.js
 1) You will need to be registered with a Google Earth Engine account to run these scripts. If you don't already have an account you can sign up for one here.
 In GEE, in the left toolbar, select 'New' - 'File' from the red dropdown box. Enter a path, a filename, and a description.
