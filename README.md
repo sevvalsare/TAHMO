@@ -5,9 +5,10 @@ GSMAP and CHIRPS data are imported via using google earth engine.
 
 ## Matlab
 data_comparison.m - this script will take output from Google Earth Engine and Tahmo and it will convert them to daily file formats needed for comparison. Please see the comments at the top of that file.
-call_kstest.m - this script is called by data_comparison.m for the purposes of evaluating ks test.
-call_crosscor.m - this script is called by data_comparison.m for the purposes of evaluating cross correlation.
-callTAHMO.m - this script is called by data_comparison.m for the purposes of converting 5min tahmo data to daily data.
+
+	call_kstest.m - this script is called by data_comparison.m for the purposes of evaluating ks test.
+	call_crosscor.m - this script is called by data_comparison.m for the purposes of evaluating cross correlation.
+	callTAHMO.m - this script is called by data_comparison.m for the purposes of converting 5min tahmo data to daily data.
 
 ## Google Earth Engine
 define_chirps_precipitation.js
