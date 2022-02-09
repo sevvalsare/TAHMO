@@ -10,6 +10,8 @@ data_comparison.m - this script will take output from Google Earth Engine and Ta
 	call_crosscor.m - this script is called by data_comparison.m for the purposes of evaluating cross correlation.
 	callTAHMO.m - this script is called by data_comparison.m for the purposes of converting 5min tahmo data to daily data.
 
+method_comparison.m - this script will take data from the data_comparison.m script and evaluates how TAHMO data is consistent with various precipitation defect detection methods. Please see the comments at the top of that file.
+
 ## Google Earth Engine
 - define_chirps_precipitation.js 
 - define_gsmap_precipitation.js
